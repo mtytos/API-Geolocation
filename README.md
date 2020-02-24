@@ -2,15 +2,15 @@
 
 ### Разработано для проекта MACTHA - социальная сеть знакомств, аналог Tinder, Badoo<br>
 
-<b>API позволяет определить расстояние между пользователями социальной сети</b><br>
+API позволяет определить расстояние между пользователями социальной сети<br>
 - используемый язык - PHP
 
 ### Usage: <br>
 
-<b>метод calcDistVarJSON(</b><em> широта юзера, долгота юзера, данные, format возвращаемых данных</em> <b>)</b><br>
+<b>calcDistVarJSON(</b><em>  широта юзера, долгота юзера, данные, format возвращаемых данных </em><b>)</b><br>
 - format = 1, данные в JSON<br>
 - format = 0, данные в Associative array<br>
-- данные в формате JSON / Associative array<br><br>
+- данные в формате JSON / Associative array<br>
 
 <b><em>пример принимаемых данных JSON:</b></em><br>
 <pre>
@@ -36,4 +36,7 @@ Array
     [2] => ...
     ...
 )
-</pre>
+</pre><br>
+##### ATTENTION! Ключи: idUser, latitude, longitude - обязательно должны быть использованы<br>
+
+
