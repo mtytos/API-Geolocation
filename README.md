@@ -12,7 +12,8 @@
 - format = 0, данные в Associative array<br>
 - данные в формате JSON / Associative array<br>
 <b><em>пример принимаемых данных JSON:</b></em><br>
-[{"idUser":"1","latitude":"54.320396","longitude":"39.1917651"},<br>{"idUser":"2","latitude":"53.320396","longitude":"33.1917651"}]<br>
+<pre>
+[{"idUser":"1","latitude":"54.320396","longitude":"39.1917651"}, {"idUser":"2","latitude":"53.320396","longitude":"33.1917651"}]</pre>
 <b><em>пример принимаемых данных Associative array:</b></em><br>
 <pre>
 Array
