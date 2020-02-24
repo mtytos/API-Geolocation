@@ -7,7 +7,8 @@ API позволяет определить расстояние между по
 
 ### Usage: <br>
 
-<b>calcDistVarJSON(</b><em>  широта юзера, долгота юзера, данные, format возвращаемых данных </em><b>)</b><br>
+<b>1. calcDistVarJSON(</b><em>  широта юзера, долгота юзера, данные, format возвращаемых данных </em><b>)</b><br>
+- широта / долгота юзера = значения / переменные<br>
 - format = 1, данные в JSON<br>
 - format = 0, данные в Associative array<br>
 - данные в формате JSON / Associative array<br>
@@ -36,7 +37,30 @@ Array
     [2] => ...
     ...
 )
-</pre><br>
+</pre>
 ##### ATTENTION! Ключи: idUser, latitude, longitude - обязательно должны быть использованы<br>
 
+<b><em>Возвращаемые значения JSON:</b></em><br>
+<pre>
+[{"idUser":"1","km":128},{"idUser":"2","km":393}]</pre>
+
+<b><em>Возвращаемые значения Associative array:</b></em><br>
+<pre>
+Array
+(
+    [0] => Array
+        (
+            [idUser] => 1
+            [km] => 128
+        )
+
+    [1] => Array
+        (
+            [idUser] => 2
+            [km] => 393
+        )
+)
+</pre>
+
+<b>2. 
 
