@@ -38,7 +38,7 @@ Array
     ...
 )
 </pre>
-### ATTENTION! Ключи: idUser, latitude, longitude - обязательно должны быть использованы<br>
+#### ATTENTION! Ключи: idUser, latitude, longitude - обязательно должны быть использованы<br>
 
 <em>Возвращаемые значения JSON:</em><br>
 <pre>
@@ -80,7 +80,7 @@ Array
     [longitude] => 38.1917651
 )
 </pre>
-### ATTENTION! Ключи: latitude, longitude - обязательно должны быть использованы<br>
+#### ATTENTION! Ключи: latitude, longitude - обязательно должны быть использованы<br>
 Принимаемые значения данных БД и возвращаемые значения аналогичны методу 1.<br><br>
 
 <b>3. calcDistVar (</b><em>  широта1, долгота1, широта2, долгота2, format  </em><b>)</b><br>
