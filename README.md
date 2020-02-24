@@ -13,11 +13,11 @@ API позволяет определить расстояние между по
 - format = 1, данные в JSON<br>
 - format = 0, данные в Associative array<br>
 
-<b><em>пример принимаемых данных БД JSON:</b></em><br>
+<em>пример принимаемых данных БД JSON:</em><br>
 <pre>
 [{"idUser":"1","latitude":"54.320396","longitude":"39.1917651"}, {"idUser":"2","latitude":"53.320396","longitude":"33.1917651"}]</pre>
 
-<b><em>пример принимаемых данных БД Associative array:</b></em><br>
+<em>пример принимаемых данных БД Associative array:</em><br>
 <pre>
 Array
 (
@@ -40,11 +40,11 @@ Array
 </pre>
 ### ATTENTION! Ключи: idUser, latitude, longitude - обязательно должны быть использованы<br>
 
-<b><em>Возвращаемые значения JSON:</b></em><br>
+<em>Возвращаемые значения JSON:</em><br>
 <pre>
 [{"idUser":"1","km":128},{"idUser":"2","km":393}]</pre>
 
-<b><em>Возвращаемые значения Associative array:</b></em><br>
+<em>Возвращаемые значения Associative array:</em><br>
 <pre>
 Array
 (
@@ -68,11 +68,11 @@ Array
 - format = 1, данные в JSON<br>
 - format = 0, данные в Associative array<br>
 
-<b><em>пример принимаемых данных юзера JSON:</b></em><br>
+<em>пример принимаемых данных юзера JSON:</em><br>
 <pre>
 {"latitude":55.320396,"longitude":38.1917651}</pre>
 
-<b><em>пример принимаемых данных БД Associative array:</b></em><br>
+<em>пример принимаемых данных БД Associative array:</em><br>
 <pre>
 Array
 (
@@ -83,5 +83,8 @@ Array
 ### ATTENTION! Ключи: latitude, longitude - обязательно должны быть использованы<br>
 Принимаемые значения данных БД и возвращаемые значения аналогичны методу 1.<br>
 
-
-
+<b>2. calcDistVar (</b><em>  широта1, долгота1, широта2, долгота2, format  </em><b>)</b><br>
+- широта / долгота  = значения / переменные<br>
+- format = 1, данные в JSON<br>
+- format = 0, данные в Associative array<br>
+Возвращаемое значение - расстояние между объектами
